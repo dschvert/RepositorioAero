@@ -1,0 +1,44 @@
+body {background-color:#9ae4ea;}
+/* The animation code */
+@keyframes example {
+  0%   {background-image: url("../img/DSC_0001e.jpg");}
+  25%  {background-image: url("../img/DSC_0203e.jpg");}
+  50%  {background-image: url("../img/DSC_0221e.jpg");}
+  75%  {background-image: url("../img/DSC_0478e.jpg");}
+}
+
+/* The element to apply the animation to */
+#transiciones {
+  min-height: 200px;
+  background-image: url("../img/DSC_0001e.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  animation-name: example;
+  animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#historia {
+  font-size: 1em;
+  color: black;
+  margin: 5px;
+  padding: 30px;
+ }
+
+ #FormContacto{
+   font-size: 1em;
+   color: black;
+   margin: 15px;
+   padding: 5px;}
+
+  #vola{
+    margin: auto;
+    width: 50%;
+    color:rebeccapurple;
+
+  }
